@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SearchDefaultBackgroundView" customModule="TodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="188"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜索感兴趣的内容" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbl-av-jlF">
+                    <rect key="frame" x="0.0" y="48" width="341" height="46"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcF-La-po6" userLabel="line">
+                    <rect key="frame" x="40" y="112" width="261" height="1"/>
+                    <color key="backgroundColor" red="0.84313725490196079" green="0.84313725490196079" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="J2e-lA-kYP"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8E-Gl-HZn" userLabel="文章">
+                    <rect key="frame" x="44" y="133" width="50.5" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="vjm-Ai-oPa"/>
+                    </constraints>
+                    <state key="normal" image="essay_discover_28x28_"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81C-8f-B9h" userLabel="频道">
+                    <rect key="frame" x="94.5" y="133" width="50.5" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="eOn-Sg-LkM"/>
+                    </constraints>
+                    <state key="normal" image="channel_discover_28x28_"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="频道" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Tu-Oj-EPE">
+                    <rect key="frame" x="105.5" y="171" width="29" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAN-4s-Ybq" userLabel="头条号">
+                    <rect key="frame" x="145" y="133" width="51" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="CKD-qI-yIr"/>
+                    </constraints>
+                    <state key="normal" image="pgc_discover_28x28_"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="头条号" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npt-Fc-zXY">
+                    <rect key="frame" x="149" y="171" width="43" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-VH-QAV" userLabel="视频">
+                    <rect key="frame" x="196" y="133" width="50.5" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="uWi-1e-4aZ"/>
+                    </constraints>
+                    <state key="normal" image="video_discover_28x28_"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZn-w9-gSx">
+                    <rect key="frame" x="207" y="171" width="29" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="话题" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4V-mh-Esv">
+                    <rect key="frame" x="257.5" y="171" width="29" height="17"/>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                    <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4M-h6-Uxf" userLabel="话题">
+                    <rect key="frame" x="246.5" y="133" width="50.5" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="lib-OU-NZ3"/>
+                    </constraints>
+                    <state key="normal" image="topic_discover_28x28_"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="文章" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWm-zk-aYK">
+                    <rect key="frame" x="55" y="171" width="29" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.58823529411764708" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TcF-La-po6" secondAttribute="trailing" constant="40" id="2MW-n7-6Ky"/>
+                <constraint firstItem="xAN-4s-Ybq" firstAttribute="leading" secondItem="81C-8f-B9h" secondAttribute="trailing" id="9HX-VY-Mjs"/>
+                <constraint firstItem="NZn-w9-gSx" firstAttribute="centerY" secondItem="kWm-zk-aYK" secondAttribute="centerY" id="9JG-EG-hjQ"/>
+                <constraint firstAttribute="trailing" secondItem="H4M-h6-Uxf" secondAttribute="trailing" constant="44" id="C27-6U-C4o"/>
+                <constraint firstItem="TcF-La-po6" firstAttribute="top" secondItem="bbl-av-jlF" secondAttribute="bottom" constant="18" id="Hnr-oa-pmm"/>
+                <constraint firstItem="xAN-4s-Ybq" firstAttribute="top" secondItem="TcF-La-po6" secondAttribute="bottom" constant="20" id="HsG-4O-Qco"/>
+                <constraint firstItem="H4M-h6-Uxf" firstAttribute="centerY" secondItem="b8E-Gl-HZn" secondAttribute="centerY" id="ICX-wG-aZy"/>
+                <constraint firstItem="81C-8f-B9h" firstAttribute="centerY" secondItem="b8E-Gl-HZn" secondAttribute="centerY" id="KXe-aY-sTZ"/>
+                <constraint firstItem="bbl-av-jlF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MQ9-Z9-fRM"/>
+                <constraint firstItem="b8E-Gl-HZn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="44" id="Ntd-SF-q7m"/>
+                <constraint firstItem="xAN-4s-Ybq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="TYq-wN-ddc"/>
+                <constraint firstItem="81C-8f-B9h" firstAttribute="width" secondItem="b8E-Gl-HZn" secondAttribute="width" id="VL5-GD-dv0"/>
+                <constraint firstItem="bbl-av-jlF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="48" id="bMV-fY-KEA"/>
+                <constraint firstItem="npt-Fc-zXY" firstAttribute="centerX" secondItem="xAN-4s-Ybq" secondAttribute="centerX" id="cUn-g2-CXe"/>
+                <constraint firstItem="TcF-La-po6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="cnD-g8-wey"/>
+                <constraint firstItem="JuN-VH-QAV" firstAttribute="centerY" secondItem="b8E-Gl-HZn" secondAttribute="centerY" id="dQa-Di-euE"/>
+                <constraint firstAttribute="trailing" secondItem="bbl-av-jlF" secondAttribute="trailing" id="eby-B9-uWH"/>
+                <constraint firstItem="xAN-4s-Ybq" firstAttribute="width" secondItem="b8E-Gl-HZn" secondAttribute="width" id="gXc-JS-kCl"/>
+                <constraint firstItem="81C-8f-B9h" firstAttribute="leading" secondItem="b8E-Gl-HZn" secondAttribute="trailing" id="gl1-8e-Tlf"/>
+                <constraint firstItem="kWm-zk-aYK" firstAttribute="centerX" secondItem="b8E-Gl-HZn" secondAttribute="centerX" id="h5B-HZ-5TK"/>
+                <constraint firstItem="JuN-VH-QAV" firstAttribute="width" secondItem="b8E-Gl-HZn" secondAttribute="width" id="hSt-Uh-yjY"/>
+                <constraint firstItem="kWm-zk-aYK" firstAttribute="top" secondItem="b8E-Gl-HZn" secondAttribute="bottom" constant="10" id="hpn-Vi-mgF"/>
+                <constraint firstItem="I4V-mh-Esv" firstAttribute="centerY" secondItem="kWm-zk-aYK" secondAttribute="centerY" id="keU-sM-KSG"/>
+                <constraint firstItem="H4M-h6-Uxf" firstAttribute="leading" secondItem="JuN-VH-QAV" secondAttribute="trailing" id="ku2-1U-nlN"/>
+                <constraint firstAttribute="bottom" secondItem="npt-Fc-zXY" secondAttribute="bottom" id="lEC-M0-ity"/>
+                <constraint firstItem="npt-Fc-zXY" firstAttribute="centerY" secondItem="kWm-zk-aYK" secondAttribute="centerY" id="mrN-zJ-b9U"/>
+                <constraint firstItem="NZn-w9-gSx" firstAttribute="centerX" secondItem="JuN-VH-QAV" secondAttribute="centerX" id="nvH-55-mfe"/>
+                <constraint firstItem="0Tu-Oj-EPE" firstAttribute="centerY" secondItem="kWm-zk-aYK" secondAttribute="centerY" id="qq6-xO-id5"/>
+                <constraint firstItem="H4M-h6-Uxf" firstAttribute="width" secondItem="b8E-Gl-HZn" secondAttribute="width" id="rZt-x2-vIh"/>
+                <constraint firstItem="I4V-mh-Esv" firstAttribute="centerX" secondItem="H4M-h6-Uxf" secondAttribute="centerX" id="sA4-Ie-NMY"/>
+                <constraint firstItem="0Tu-Oj-EPE" firstAttribute="centerX" secondItem="81C-8f-B9h" secondAttribute="centerX" id="t1A-sE-kcD"/>
+                <constraint firstItem="JuN-VH-QAV" firstAttribute="leading" secondItem="xAN-4s-Ybq" secondAttribute="trailing" id="uE5-k6-huM"/>
+                <constraint firstItem="xAN-4s-Ybq" firstAttribute="centerY" secondItem="b8E-Gl-HZn" secondAttribute="centerY" id="xwu-oE-did"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-23.5" y="364"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="channel_discover_28x28_" width="28" height="28"/>
+        <image name="essay_discover_28x28_" width="28" height="28"/>
+        <image name="pgc_discover_28x28_" width="28" height="28"/>
+        <image name="topic_discover_28x28_" width="28" height="28"/>
+        <image name="video_discover_28x28_" width="28" height="28"/>
+    </resources>
+</document>

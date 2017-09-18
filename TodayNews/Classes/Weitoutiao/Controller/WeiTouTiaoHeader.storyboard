@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Navigation Controller-->
+        <scene sceneID="H9q-Ok-9T8">
+            <objects>
+                <navigationController storyboardIdentifier="TextNavigationController" id="1mX-Ek-cOk" customClass="MyNavigationController" customModule="TodayNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZeY-Y2-bOb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mQS-iO-OKe" kind="relationship" relationship="rootViewController" id="dSQ-dg-L8E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZA-Fq-yHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1034" y="96"/>
+        </scene>
+        <!--Header Text View Controller-->
+        <scene sceneID="Ppd-yl-xMF">
+            <objects>
+                <viewController id="mQS-iO-OKe" customClass="HeaderTextViewController" customModule="TodayNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vuR-NN-P2Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="GdX-MO-0FB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pKx-Sn-RTy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WV1-Ys-fJk">
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="b7R-1c-k0r">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cancelBarButtonClicked:" destination="mQS-iO-OKe" id="skT-N1-6vN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="发布" id="Oo9-dV-QxM">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="postBarButton" destination="Oo9-dV-QxM" id="r6g-Qz-f8Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="268-i8-uxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-310" y="96"/>
+        </scene>
+        <!--Feed Share View Controller-->
+        <scene sceneID="Lv0-Cb-KLC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lCI-2u-VSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController storyboardIdentifier="FeedShareViewController" id="6D8-bN-BIH" customClass="FeedShareViewController" customModule="TodayNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="83" sectionHeaderHeight="28" sectionFooterHeight="28" id="bA9-6Y-Zm1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <outlet property="dataSource" destination="6D8-bN-BIH" id="Foe-1N-Fwp"/>
+                            <outlet property="delegate" destination="6D8-bN-BIH" id="SOU-wq-cge"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ZHb-rv-XC4">
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="wMd-So-ul2">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cancelButtonClicked:" destination="6D8-bN-BIH" id="4R1-gv-8jY"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="发布" id="zCk-5G-42m">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="postButtonClicked:" destination="6D8-bN-BIH" id="gH2-ls-S0U"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-311.19999999999999" y="807.34632683658174"/>
+        </scene>
+    </scenes>
+</document>

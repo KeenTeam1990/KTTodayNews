@@ -1,0 +1,2027 @@
+{
+	"id": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+	"name": "今日头条",
+	"description": "今日头条接口",
+	"order": [],
+	"folders": [
+		{
+			"owner": "184002",
+			"lastUpdatedBy": "184002",
+			"lastRevision": 443616943,
+			"id": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f",
+			"name": "1.首页",
+			"description": "首页",
+			"order": [
+				"5d7a8576-94ff-595e-0dec-9719a6980417",
+				"834b79e3-a8e5-13ce-7a5c-8387f616b9a4",
+				"5f5abbf8-97d3-6c3f-e180-0e1a9cc0cc0d",
+				"c63f9964-aba1-9e91-5e08-4a577080c4a1",
+				"fe05f002-4b9c-7f45-a727-6d07261907ea",
+				"9e73f744-0eee-d33b-1971-a40005f863ec",
+				"205954db-87de-21d4-1a80-39d6ec82feab",
+				"c47d2afe-fad7-5a5a-c608-79738634c9de",
+				"d2d7ed14-a4ed-7b0b-0dc6-9fea05e95baa",
+				"587ad4d8-09c3-03fd-6f82-e6fc5220eb02",
+				"da11143e-3201-abc6-c36b-98ba7746d3f8",
+				"99c5207a-4c79-9584-b34b-e93bb3ac6e60",
+				"7f9001a6-b100-bca9-6659-7c2be9faa455",
+				"b140c0f8-a434-e979-a414-5a23403d91fb"
+			]
+		},
+		{
+			"owner": "184002",
+			"lastUpdatedBy": "184002",
+			"lastRevision": 443509868,
+			"id": "99a6e5e8-8408-66e0-9f21-de1485fc629f",
+			"name": "2.视频",
+			"description": "",
+			"order": [
+				"66655d0c-557c-b0e6-62e6-c4fdc65ac185",
+				"144b4a6a-7129-6272-486b-06ae0aa20d3f",
+				"a8a51e69-90cd-80f7-a730-4c9f6e9dc155",
+				"be19a391-d5cf-4fec-6157-71e7c896f02a",
+				"83c91387-96dc-002d-dcb0-e35943389910",
+				"cad55cef-0b26-56c3-6d47-641fd2ab331c",
+				"e060b565-448e-aac2-be77-ef2c1ddeca78",
+				"6440b30e-6617-12da-82bb-3aa463fd6235"
+			]
+		},
+		{
+			"owner": "184002",
+			"lastUpdatedBy": "184002",
+			"lastRevision": 443577244,
+			"id": "76d6c131-d51b-86be-695c-8f90de829215",
+			"name": "3.微头条",
+			"description": "",
+			"order": [
+				"0c04233c-ef83-2d37-dee0-c28e77124f37",
+				"e53c05be-3366-40ad-5cb3-93e692f2f2b2",
+				"fefd035c-e94d-7098-f7a9-6793f77d6a0a",
+				"d111c5b8-6a38-ee42-e19f-b5ed0bebfe7a",
+				"1c4a0863-37aa-4eb4-9009-d64ff6125fc5",
+				"2a3e5862-2963-f80a-18d3-6873d2820d69"
+			]
+		},
+		{
+			"owner": "184002",
+			"lastUpdatedBy": "184002",
+			"lastRevision": 440023995,
+			"id": "81cecc5b-952e-9255-07ab-47aa02ac6a82",
+			"name": "4.我的",
+			"description": "",
+			"order": [
+				"b33e694b-dacb-18d1-7f1b-21f8ba2ffbf6",
+				"90797cd3-570d-4fa3-ba3e-58b44640b03c",
+				"9f34b662-c32f-8279-2f80-dc3087187c3d",
+				"17254565-33b0-47cf-5014-bcc63284c0ac",
+				"7f6cd1e3-792b-1a47-dca6-aeeb2fdbb3d2"
+			],
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		}
+	],
+	"folders_order": [
+		"3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f",
+		"99a6e5e8-8408-66e0-9f21-de1485fc629f",
+		"76d6c131-d51b-86be-695c-8f90de829215",
+		"81cecc5b-952e-9255-07ab-47aa02ac6a82"
+	],
+	"timestamp": 0,
+	"owner": "184002",
+	"public": false,
+	"requests": [
+		{
+			"id": "0c04233c-ef83-2d37-dee0-c28e77124f37",
+			"headers": "",
+			"url": "https://is.snssdk.com/concern/v1/guide/page/?iid=5034850950",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487251716265,
+			"name": "搜你关注的",
+			"description": "搜你关注的",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "144b4a6a-7129-6272-486b-06ae0aa20d3f",
+			"headers": "",
+			"url": "http://restapi.amap.com/v3/geocode/regeo?language=zh&extensions=base&key=e14e4035999f31bceb54d7c88bce46a8&location=116.894953%2C38.292344&radius=1000&scode=f037028bdf1be76d074ececb5ca1c736&ts=1487248657213",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "offset",
+					"value": "8",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "recommend",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487248772174,
+			"name": "位置信息",
+			"description": "http://lf.snssdk.com/video_api/get_category/v1",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "17254565-33b0-47cf-5014-bcc63284c0ac",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/pgc/ma/?page_type=1&max_behot_time=&uid=50329949946&media_id=50329949946&output=json&is_json=1&count=20&from=user_profile_app&version=2&as=A1C589C5241FD18&cp=59549FCDF1885E1",
+			"queryParams": [
+				{
+					"key": "page_type",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "max_behot_time",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "uid",
+					"value": "50329949946",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "media_id",
+					"value": "50329949946",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "output",
+					"value": "json",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "is_json",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "from",
+					"value": "user_profile_app",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "as",
+					"value": "A1C589C5241FD18",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "cp",
+					"value": "59549FCDF1885E1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1498742389918,
+			"name": "关注详情 -- 文章列表",
+			"description": "",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "1c4a0863-37aa-4eb4-9009-d64ff6125fc5",
+			"headers": "",
+			"headerData": [],
+			"url": "http://isub.snssdk.com/2/relation/follow/v2/?app_name=news_article&device_id=24694333167&iid=11145096950&user_id=55296962834&version_code=6.1.6",
+			"queryParams": [
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "24694333167",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "iid",
+					"value": "11145096950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "55296962834",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version_code",
+					"value": "6.1.6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497580923610,
+			"name": "微头条-关注按钮 点击",
+			"description": "",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "205954db-87de-21d4-1a80-39d6ec82feab",
+			"headers": "",
+			"url": "http://lf.snssdk.com/api/news/feed/v39/?device_id=6096495334&iid=5034850950&count=20&last_refresh_sub_entrance_interval=1470461401&min_behot_time=1470460661",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "首页新闻数据 - 热点",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1470461258824,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f"
+		},
+		{
+			"id": "2a3e5862-2963-f80a-18d3-6873d2820d69",
+			"headers": "",
+			"headerData": [],
+			"url": "http://isub.snssdk.com/2/relation/unfollow/?app_name=news_article&device_id=24694333167&os_version=9.3.2&user_id=55296962834&version_code=6.1.6",
+			"queryParams": [
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "24694333167",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "os_version",
+					"value": "9.3.2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "55296962834",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version_code",
+					"value": "6.1.6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497579558198,
+			"name": "微头条界面-已关注 按钮点击-取消关注",
+			"description": "",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "587ad4d8-09c3-03fd-6f82-e6fc5220eb02",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/api/ad/share/v1/?version_code=5.9.8&app_name=news_article&vid=9E7F056D-4902-4CA5-B77F-5EFE0B0D112C&device_id=24694333167&channel=App%20Store&resolution=640*1136&aid=13&ab_version=95367,107054,106283,101786,107121,107125,106209,101533,103923,105769,106281,106205,106784,97143,31651,104832,101558,94045,107065,92438,107091,104236,105759,105610,106702,105788,106299,103570,105857,104711,98043,105475,103630,103435&ab_feature=z1&openudid=fad94bc66e60ce903ed1a20efec5f94b82c42cee&live_sdk_version=1.6.5&idfv=9E7F056D-4902-4CA5-B77F-5EFE0B0D112C&ac=WIFI&os_version=9.3.2&ssmix=a&device_platform=iphone&iid=5034850950&ab_client=a1,f2,f7,e1&device_type=iPhone%205S&idfa=12D3CE1F-D56F-4DFD-9896-A4379014B6BE&access=WIFI&app_name=news_article&carrier=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&channel=App%20Store&device_id=6096495334&device_platform=iphone&device_type=iPhone%205S&display_density=640x1136&mcc_mnc=07&openudid=fad94bc66e60ce903ed1a20efec5f94b82c42cee&os_version=9.3&version_code=5.9.8",
+			"queryParams": [
+				{
+					"key": "version_code",
+					"value": "5.9.8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "vid",
+					"value": "9E7F056D-4902-4CA5-B77F-5EFE0B0D112C",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "24694333167",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "channel",
+					"value": "App%20Store",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "resolution",
+					"value": "640*1136",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "aid",
+					"value": "13",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_version",
+					"value": "95367,107054,106283,101786,107121,107125,106209,101533,103923,105769,106281,106205,106784,97143,31651,104832,101558,94045,107065,92438,107091,104236,105759,105610,106702,105788,106299,103570,105857,104711,98043,105475,103630,103435",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_feature",
+					"value": "z1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "openudid",
+					"value": "fad94bc66e60ce903ed1a20efec5f94b82c42cee",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "live_sdk_version",
+					"value": "1.6.5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idfv",
+					"value": "9E7F056D-4902-4CA5-B77F-5EFE0B0D112C",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ac",
+					"value": "WIFI",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "os_version",
+					"value": "9.3.2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ssmix",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_platform",
+					"value": "iphone",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_client",
+					"value": "a1,f2,f7,e1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_type",
+					"value": "iPhone%205S",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idfa",
+					"value": "12D3CE1F-D56F-4DFD-9896-A4379014B6BE",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "access",
+					"value": "WIFI",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "carrier",
+					"value": "%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "channel",
+					"value": "App%20Store",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "6096495334",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_platform",
+					"value": "iphone",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_type",
+					"value": "iPhone%205S",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "display_density",
+					"value": "640x1136",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "mcc_mnc",
+					"value": "07",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "openudid",
+					"value": "fad94bc66e60ce903ed1a20efec5f94b82c42cee",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "os_version",
+					"value": "9.3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version_code",
+					"value": "5.9.8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1498482519617,
+			"name": "广告",
+			"description": "广告",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "5d7a8576-94ff-595e-0dec-9719a6980417",
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f",
+			"name": "首页顶部标题数据",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "http://lf.snssdk.com/article/category/get_subscribed/v1/?iid=5034850950",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "https://lf.snssdk.com/article/category/get_subscribed/v1/?iid=5034850950&aid=13",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		},
+		{
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f",
+			"id": "5f5abbf8-97d3-6c3f-e180-0e1a9cc0cc0d",
+			"name": "首页-反馈",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "http://lf.snssdk.com/feedback/2/list/",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://lf.snssdk.com/feedback/2/list/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		},
+		{
+			"id": "6440b30e-6617-12da-82bb-3aa463fd6235",
+			"headers": "",
+			"url": "http://i.snssdk.com/pgc/m5579905401/?client_dialog_show=false&page_type=0&ab_client=a1,b1,b7,f2,f7,e1&iid=5124013949&ac=WIFI&ssmix=a&aid=13&app_name=news_article&channel=App%20Store&device_platform=iphone&idfa=12D3CE1F-D56F-4DFD-9896-A4379014B6BE&os_version=9.3.2&vid=9E7F056D-4902-4CA5-B77F-5EFE0B0D112C&openudid=fad94bc66e60ce903ed1a20efec5f94b82c42cee&device_type=iPhone%205S&ab_feature=z1&device_id=24694333167&ab_version=concern_talk_data_test8_06,top_search_bar_new_user_0801_base,detail_top_search_bar_0801_new_user_test,new_user_interest_guide_20160803_base2&resolution=640*1136&version_code=5.7.3",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "视频 - 用户详情 - html",
+			"description": "http://i.snssdk.com/pgc/m5579905401/?client_dialog_show=false&page_type=0&ab_client=a1,b1,b7,f2,f7,e1&iid=5124013949&ac=WIFI&ssmix=a&aid=13&app_name=news_article&channel=App%20Store&device_platform=iphone&idfa=12D3CE1F-D56F-4DFD-9896-A4379014B6BE&os_version=9.3.2&vid=9E7F056D-4902-4CA5-B77F-5EFE0B0D112C&openudid=fad94bc66e60ce903ed1a20efec5f94b82c42cee&device_type=iPhone%205S&ab_feature=z1&device_id=24694333167&ab_version=concern_talk_data_test8_06,top_search_bar_new_user_0801_base,detail_top_search_bar_0801_new_user_test,new_user_interest_guide_20160803_base2&resolution=640*1136&version_code=5.7.3",
+			"descriptionFormat": "html",
+			"time": 1471238917950,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "99a6e5e8-8408-66e0-9f21-de1485fc629f"
+		},
+		{
+			"id": "66655d0c-557c-b0e6-62e6-c4fdc65ac185",
+			"headers": "",
+			"url": "https://is.snssdk.com/video_api/get_category/v1/?version_code=5.9.8&app_name=news_article&vid=9E7F056D-4902-4CA5-B77F-5EFE0B0D112C&device_id=24694333167&channel=App%20Store&resolution=640*1136&aid=13&ab_version=95367,106283,105703,101786,106209,101533,103923,105769,106281,106205,106784,106673,97143,31651,104832,101558,94045,105756,92438,104236,105759,105610,106702,105788,106299,103570,105857,104711,98043,105475,103630,103435&ab_feature=z1&openudid=fad94bc66e60ce903ed1a20efec5f94b82c42cee&live_sdk_version=1.6.5&idfv=9E7F056D-4902-4CA5-B77F-5EFE0B0D112C&ac=WIFI&os_version=9.3.2&ssmix=a&device_platform=iphone&iid=7729998738&ab_client=a1,f2,f7,e1&idfa=12D3CE1F-D56F-4DFD-9896-A4379014B6BE",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487300921012,
+			"name": "视频标题数据",
+			"description": "视频标题数据",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "7f6cd1e3-792b-1a47-dca6-aeeb2fdbb3d2",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/pgc/ma/?page_type=1&max_behot_time=&uid=50329949946&media_id=50329949946&output=json&is_json=1&count=20&from=user_profile_app&version=2&as=A1C589C5241FD18&cp=59549FCDF1885E1",
+			"queryParams": [
+				{
+					"key": "page_type",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "max_behot_time",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "uid",
+					"value": "50329949946",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "media_id",
+					"value": "50329949946",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "output",
+					"value": "json",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "is_json",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "from",
+					"value": "user_profile_app",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "as",
+					"value": "A1C589C5241FD18",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "cp",
+					"value": "59549FCDF1885E1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "关注详情--动态",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1498742405752,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "81cecc5b-952e-9255-07ab-47aa02ac6a82"
+		},
+		{
+			"id": "7f9001a6-b100-bca9-6659-7c2be9faa455",
+			"headers": "",
+			"headerData": [],
+			"url": "http://isub.snssdk.com/2/relation/follow/v2/?device_id=24694333167&iid=11145096950&user_id=3564799576",
+			"queryParams": [
+				{
+					"key": "device_id",
+					"value": "24694333167",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "iid",
+					"value": "11145096950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3564799576",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1499480182590,
+			"name": "关注头条号",
+			"description": "",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f",
+			"id": "834b79e3-a8e5-13ce-7a5c-8387f616b9a4",
+			"name": "有多少条文章更新",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "http://lf.snssdk.com/2/article/v39/refresh_tip/",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://lf.snssdk.com/2/article/v39/refresh_tip/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		},
+		{
+			"id": "83c91387-96dc-002d-dcb0-e35943389910",
+			"headers": "",
+			"url": "http://lf.snssdk.com/api/news/feed/v39/?iid=5034850950&category=subv_funny&concern_id=&last_refresh_sub_entrance_interval=34802&list_entrance=main_tab",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "offset",
+					"value": "8",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "recommend",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470697995664,
+			"name": "视频数据-逗比剧",
+			"description": "http://lf.snssdk.com/api/news/feed/v39/?category=subv_funny",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "90797cd3-570d-4fa3-ba3e-58b44640b03c",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/concern/v2/follow/my_follow/?device_id=6096495334",
+			"queryParams": [
+				{
+					"key": "device_id",
+					"value": "6096495334",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1498479183172,
+			"name": "我的关注",
+			"description": "点击关注/ 已关注 按钮后，请求此接口",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "99c5207a-4c79-9584-b34b-e93bb3ac6e60",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/entry/list/v1/?version_code=6.1.6&app_name=news_article&vid=712DF629-3ED9-4FD0-92DA-ADA33E32EE83&device_id=24694333167&channel=App%20Store&resolution=640*1136&aid=13&ab_version=145818,146800,122834,143763,144448,144745,146589,134128,139274,144818,140593,140065,143655,125502,125174,144443,146837,143829,147204,122948,31245,146508,131207,142977,145585,145309,141573&ab_feature=z1&ab_group=z1&openudid=fad94bc66e60ce903ed1a20efec5f94b82c42cee&live_sdk_version=1.6.5&idfv=712DF629-3ED9-4FD0-92DA-ADA33E32EE83&ac=WIFI&os_version=9.3.2&ssmix=a&device_platform=iphone&iid=11145096950&ab_client=a1,f2,f7,e1&device_type=iPhone%205S&idfa=12D3CE1F-D56F-4DFD-9896-A4379014B6BE",
+			"queryParams": [
+				{
+					"key": "version_code",
+					"value": "6.1.6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "vid",
+					"value": "712DF629-3ED9-4FD0-92DA-ADA33E32EE83",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "24694333167",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "channel",
+					"value": "App%20Store",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "resolution",
+					"value": "640*1136",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "aid",
+					"value": "13",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_version",
+					"value": "145818,146800,122834,143763,144448,144745,146589,134128,139274,144818,140593,140065,143655,125502,125174,144443,146837,143829,147204,122948,31245,146508,131207,142977,145585,145309,141573",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_feature",
+					"value": "z1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_group",
+					"value": "z1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "openudid",
+					"value": "fad94bc66e60ce903ed1a20efec5f94b82c42cee",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "live_sdk_version",
+					"value": "1.6.5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idfv",
+					"value": "712DF629-3ED9-4FD0-92DA-ADA33E32EE83",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ac",
+					"value": "WIFI",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "os_version",
+					"value": "9.3.2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ssmix",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_platform",
+					"value": "iphone",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "iid",
+					"value": "11145096950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_client",
+					"value": "a1,f2,f7,e1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_type",
+					"value": "iPhone%205S",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idfa",
+					"value": "12D3CE1F-D56F-4DFD-9896-A4379014B6BE",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "头条号",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1499470239341,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f"
+		},
+		{
+			"id": "9e73f744-0eee-d33b-1971-a40005f863ec",
+			"headers": "",
+			"url": "http://lf.snssdk.com/api/news/feed/v39/?iid=5034850950&device_id=6096495334&category",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470442759831,
+			"name": "首页新闻列表数据",
+			"description": "http://lf.snssdk.com/api/news/feed/v39/?iid=5034850950&device_id=6096495334",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "9f34b662-c32f-8279-2f80-dc3087187c3d",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/user/profile/homepage/v3/?user_id=50329949946",
+			"queryParams": [
+				{
+					"key": "user_id",
+					"value": "50329949946",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1498778755356,
+			"name": "关注详情",
+			"description": "",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"folder": "99a6e5e8-8408-66e0-9f21-de1485fc629f",
+			"id": "a8a51e69-90cd-80f7-a730-4c9f6e9dc155",
+			"name": "有多少文章更新",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "offset",
+					"value": "8",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "recommend",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "http://lf.snssdk.com/2/article/v39/refresh_tip/",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://lf.snssdk.com/2/article/v39/refresh_tip/",
+			"preRequestScript": null,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		},
+		{
+			"id": "b140c0f8-a434-e979-a414-5a23403d91fb",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/api/2/wap/search_content/?iid=11145096950&ab_version=153590%2C155042%2C156398%2C157072%2C154818%2C155133%2C122834%2C155242%2C148161%2C151124%2C157001%2C153616%2C156520%2C155247%2C152379%2C134128%2C156506%2C156397%2C157293%2C152027%2C125174%2C156637%2C156362%2C156540%2C156262%2C143829%2C149046%2C151309%2C157020%2C157295%2C122948%2C31245%2C156652%2C131207%2C145585%2C155099%2C152583%2C151116&resolution=640*1136&ab_client=a1%2Cf2%2Cf7%2Ce1&app_name=news_article&channel=App%2520Store&device_platform=iphone&idfa=12D3CE1F-D56F-4DFD-9896-A4379014B6BE&version_code=6.1.6&vid=712DF629-3ED9-4FD0-92DA-ADA33E32EE83&openudid=fad94bc66e60ce903ed1a20efec5f94b82c42cee&device_type=iPhone%2525205S&ab_feature=z2&ab_group=z2&ssmix=a&ac=WIFI&os_version=9.3.2&aid=13&device_id=24694333167&keyword=%E5%9B%9E%E5%BF%86%E6%9D%80%E5%BD%93%E4%BD%A0&forum=1&search_sug=1&is_top_searchbar=1&from=search_tab&no_outsite_res=0&as=A1157988530DF74&cp=59839D3F67948E1&count=10&cur_tab=1&format=json&hasMore=0&offset=0&url=%2Fapi%2F2%2Fwap%2Fsearch_content%2F&search_text=%E5%9B%9E%E5%BF%86%E6%9D%80%E5%BD%93%E4%BD%A0&keyword_type=&action_type=input_keyword_search&search_id=",
+			"queryParams": [
+				{
+					"key": "iid",
+					"value": "11145096950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_version",
+					"value": "153590%2C155042%2C156398%2C157072%2C154818%2C155133%2C122834%2C155242%2C148161%2C151124%2C157001%2C153616%2C156520%2C155247%2C152379%2C134128%2C156506%2C156397%2C157293%2C152027%2C125174%2C156637%2C156362%2C156540%2C156262%2C143829%2C149046%2C151309%2C157020%2C157295%2C122948%2C31245%2C156652%2C131207%2C145585%2C155099%2C152583%2C151116",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "resolution",
+					"value": "640*1136",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_client",
+					"value": "a1%2Cf2%2Cf7%2Ce1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "channel",
+					"value": "App%2520Store",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_platform",
+					"value": "iphone",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idfa",
+					"value": "12D3CE1F-D56F-4DFD-9896-A4379014B6BE",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version_code",
+					"value": "6.1.6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "vid",
+					"value": "712DF629-3ED9-4FD0-92DA-ADA33E32EE83",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "openudid",
+					"value": "fad94bc66e60ce903ed1a20efec5f94b82c42cee",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_type",
+					"value": "iPhone%2525205S",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_feature",
+					"value": "z2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_group",
+					"value": "z2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ssmix",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ac",
+					"value": "WIFI",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "os_version",
+					"value": "9.3.2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "aid",
+					"value": "13",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "24694333167",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "keyword",
+					"value": "%E5%9B%9E%E5%BF%86%E6%9D%80%E5%BD%93%E4%BD%A0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "forum",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "search_sug",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "is_top_searchbar",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "from",
+					"value": "search_tab",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "no_outsite_res",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "as",
+					"value": "A1157988530DF74",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "cp",
+					"value": "59839D3F67948E1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "cur_tab",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "format",
+					"value": "json",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "hasMore",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "offset",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "url",
+					"value": "%2Fapi%2F2%2Fwap%2Fsearch_content%2F",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "search_text",
+					"value": "%E5%9B%9E%E5%BF%86%E6%9D%80%E5%BD%93%E4%BD%A0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "keyword_type",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "action_type",
+					"value": "input_keyword_search",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "search_id",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "搜索",
+			"description": "搜索",
+			"descriptionFormat": "html",
+			"time": 1501833532203,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f"
+		},
+		{
+			"id": "b33e694b-dacb-18d1-7f1b-21f8ba2ffbf6",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/user/tab/tabs/?iid=5034850950",
+			"queryParams": [
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1498523116582,
+			"name": "我的界面 cell 数据",
+			"description": "我的界面 cell 数据",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "be19a391-d5cf-4fec-6157-71e7c896f02a",
+			"headers": "",
+			"url": "http://lf.snssdk.com/api/news/feed/v39/?iid=5034850950&category=video&concern_id=&last_refresh_sub_entrance_interval=34774&list_entrance=main_tab",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "offset",
+					"value": "8",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "recommend",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470698100619,
+			"name": "推荐视频数据",
+			"description": "http://lf.snssdk.com/api/news/feed/v39/",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "c47d2afe-fad7-5a5a-c608-79738634c9de",
+			"headers": "",
+			"url": "http://lf.snssdk.com/2/article/information/v16/?version_code=5.7.1&app_name=news_article&vid=8575CB9D-EFE0-411F-8E5C-DBB0D48D1948&device_id=6096495334&channel=App%20Store&resolution=750*1334&aid=13&ab_version=ttuid_abtest_channel_base2,concern_talk_data_test10_09,ttuid_abtest_article_base2,ttuid_abtest_stream_base2&ab_feature=z1&openudid=f1503767fe6a235142ac7ae604797c1093a40488&live_sdk_version=1.3.0&idfv=8575CB9D-EFE0-411F-8E5C-DBB0D48D1948&ac=WIFI&os_version=9.3.2&ssmix=a&device_platform=iphone&iid=5034850950&ab_client=a1,b2,b8,f2,f6,e1&device_type=iPhone%206&idfa=7D860ECF-C119-4A2D-9870-A9CCA1AD7CFA&aggr_type=1&article_page=0&device_id=6096495334&from_category=__all__&group_id=6315610680758288642&item_id=6315616086825894401",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "新闻详情 - 底部推荐新闻列表",
+			"description": "http://lf.snssdk.com/2/article/information/v16/?version_code=5.7.1&app_name=news_article&vid=8575CB9D-EFE0-411F-8E5C-DBB0D48D1948&device_id=6096495334&channel=App%20Store&resolution=750*1334&aid=13&ab_version=ttuid_abtest_channel_base2,concern_talk_data_test10_09,ttuid_abtest_article_base2,ttuid_abtest_stream_base2&ab_feature=z1&openudid=f1503767fe6a235142ac7ae604797c1093a40488&live_sdk_version=1.3.0&idfv=8575CB9D-EFE0-411F-8E5C-DBB0D48D1948&ac=WIFI&os_version=9.3.2&ssmix=a&device_platform=iphone&iid=5034850950&ab_client=a1,b2,b8,f2,f6,e1&device_type=iPhone%206&idfa=7D860ECF-C119-4A2D-9870-A9CCA1AD7CFA&aggr_type=1&article_page=0&device_id=6096495334&from_category=__all__&group_id=6315610680758288642&item_id=6315616086825894401",
+			"descriptionFormat": "html",
+			"time": 1470499332062,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f"
+		},
+		{
+			"id": "c63f9964-aba1-9e91-5e08-4a577080c4a1",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/article/v2/tab_comments/?offset=0&group_id=6450237670911852814&item_id=6450240420034118157",
+			"queryParams": [
+				{
+					"key": "offset",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "group_id",
+					"value": "6450237670911852814",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "item_id",
+					"value": "6450240420034118157",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1501896339869,
+			"name": "新闻详情 - 评论",
+			"description": "http://lf.snssdk.com/article/v1/tab_comments/?group_id=6314103921648926977",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"id": "cad55cef-0b26-56c3-6d47-641fd2ab331c",
+			"headers": "",
+			"url": "https://is.snssdk.com/entry/profile/v1/?entry_id=6703325374",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "视频发布用户信息",
+			"description": "https://is.snssdk.com/entry/profile/v1/?entry_id=6703325374",
+			"descriptionFormat": "html",
+			"time": 1471138864734,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "99a6e5e8-8408-66e0-9f21-de1485fc629f"
+		},
+		{
+			"id": "d111c5b8-6a38-ee42-e19f-b5ed0bebfe7a",
+			"headers": "",
+			"headerData": [],
+			"url": "https://is.snssdk.com/api/news/feed/v54/?version_code=6.1.6&app_name=news_article&device_id=6096495334&iid=5034850950&category=weitoutiao&count=20&min_behot_time=1497448512",
+			"queryParams": [
+				{
+					"key": "version_code",
+					"value": "6.1.6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_id",
+					"value": "6096495334",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "category",
+					"value": "weitoutiao",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "min_behot_time",
+					"value": "1497448512",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497581442474,
+			"name": "微头条",
+			"description": "微头条",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f",
+			"id": "d2d7ed14-a4ed-7b0b-0dc6-9fea05e95baa",
+			"name": "首页 -> 频道推荐",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "https://lf.snssdk.com/article/category/get_extra/v1/?iid=5034850950&aid=13",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "https://lf.snssdk.com/article/category/get_extra/v1/?iid=5034850950&aid=13",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		},
+		{
+			"id": "da11143e-3201-abc6-c36b-98ba7746d3f8",
+			"headers": "",
+			"headerData": [],
+			"url": "https://ib.snssdk.com/api/ad/canvas/preload/v1/?device_id=24694333167&os_version=9.3.2&aid=13&app_name=news_article&idfa=12D3CE1F-D56F-4DFD-9896-A4379014B6BE&channel=App%20Store&device_platform=iphone&live_sdk_version=1.6.5&vid=712DF629-3ED9-4FD0-92DA-ADA33E32EE83&openudid=2daf5879da1b86f28856caa7dd84b65fa947fa13&device_type=iPhone%205S&idfv=712DF629-3ED9-4FD0-92DA-ADA33E32EE83&ssmix=a&version_code=6.1.6&resolution=640*1136&ab_client=a1,f2,f7,e1&ac=WIFI&access=WIFI&carrier=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&display_density=640x1136&mcc_mnc=07",
+			"queryParams": [
+				{
+					"key": "device_id",
+					"value": "24694333167",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "os_version",
+					"value": "9.3.2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "aid",
+					"value": "13",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "app_name",
+					"value": "news_article",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idfa",
+					"value": "12D3CE1F-D56F-4DFD-9896-A4379014B6BE",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "channel",
+					"value": "App%20Store",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_platform",
+					"value": "iphone",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "live_sdk_version",
+					"value": "1.6.5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "vid",
+					"value": "712DF629-3ED9-4FD0-92DA-ADA33E32EE83",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "openudid",
+					"value": "2daf5879da1b86f28856caa7dd84b65fa947fa13",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_type",
+					"value": "iPhone%205S",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idfv",
+					"value": "712DF629-3ED9-4FD0-92DA-ADA33E32EE83",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ssmix",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version_code",
+					"value": "6.1.6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "resolution",
+					"value": "640*1136",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ab_client",
+					"value": "a1,f2,f7,e1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ac",
+					"value": "WIFI",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "access",
+					"value": "WIFI",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "carrier",
+					"value": "%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "display_density",
+					"value": "640x1136",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "mcc_mnc",
+					"value": "07",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "广告",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1498482444597,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3d0600bd-a8f7-0ea2-7b1b-d34f2a06526f"
+		},
+		{
+			"id": "e060b565-448e-aac2-be77-ef2c1ddeca78",
+			"headers": "",
+			"url": "https://is.snssdk.com/article/v1/tab_comments/?iid=5124013949&group_id=6308463823431647489&item_id=6308315880774173185",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"data": null,
+			"dataMode": "params",
+			"name": "视频-评论",
+			"description": "https://is.snssdk.com/article/v1/tab_comments/?iid=5124013949&group_id=6308463823431647489&item_id=6308315880774173185",
+			"descriptionFormat": "html",
+			"time": 1471138966318,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "99a6e5e8-8408-66e0-9f21-de1485fc629f"
+		},
+		{
+			"folder": "76d6c131-d51b-86be-695c-8f90de829215",
+			"id": "e53c05be-3366-40ad-5cb3-93e692f2f2b2",
+			"name": "关心界面",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "http://lf.snssdk.com/concern/v1/concern/list/?iid=5034850950&count=20",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://lf.snssdk.com/concern/v1/concern/list/?iid=5034850950&count=20",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		},
+		{
+			"id": "fe05f002-4b9c-7f45-a727-6d07261907ea",
+			"headers": "",
+			"headerData": [],
+			"url": "http://lf.snssdk.com/2/article/information/v16/?device_platform=iphone&iid=5034850950&group_id=6449995250764873998",
+			"queryParams": [
+				{
+					"key": "device_platform",
+					"value": "iphone",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "iid",
+					"value": "5034850950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "group_id",
+					"value": "6449995250764873998",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1501769543151,
+			"name": "新闻详情界面信息",
+			"description": "http://lf.snssdk.com/2/article/information/v16/?group_id=6314103921648926977&from_category=news_hot&item_id=6314111948413747713",
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f",
+			"responses": []
+		},
+		{
+			"folder": "76d6c131-d51b-86be-695c-8f90de829215",
+			"id": "fefd035c-e94d-7098-f7a9-6793f77d6a0a",
+			"name": "关心界面点击 cell跳转到下一界面的新闻数据",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "http://lf.snssdk.com/api/news/feed/v39/?category=news_hot&iid=5034850950",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://lf.snssdk.com/concern/v1/home/head/?iid=5034850950&concern_id=6213183000956373505",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "c2298b76-c28b-483b-ec93-8a8be64c615f"
+		}
+	]
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="JVQ-F0-6LL" userLabel="ToutiaohaoCell" customClass="ToutiaohaoCell" customModule="TodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JVQ-F0-6LL" id="fux-Yf-Hi3">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Gr-O6-AIy">
+                        <rect key="frame" x="15" y="12" width="44" height="44"/>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="b7m-bL-wDE"/>
+                            <constraint firstAttribute="height" constant="44" id="vjD-Ln-I1h"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iam-h1-CPa">
+                        <rect key="frame" x="67" y="12" width="39.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtS-m3-mBE">
+                        <rect key="frame" x="67" y="38" width="238" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz1-nu-Ehe">
+                        <rect key="frame" x="272" y="14" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txg-jw-30X" customClass="AnimatableLabel" customModule="IBAnimatable">
+                        <rect key="frame" x="48" y="7" width="16" height="16"/>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.026174532310000002" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="dmc-R7-SdE"/>
+                            <constraint firstAttribute="height" constant="16" id="fqm-iG-Fpl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Iam-h1-CPa" firstAttribute="leading" secondItem="6Gr-O6-AIy" secondAttribute="trailing" constant="8" id="2Fd-ee-F00"/>
+                    <constraint firstItem="6Gr-O6-AIy" firstAttribute="leading" secondItem="fux-Yf-Hi3" secondAttribute="leading" constant="15" id="57V-HN-UaR"/>
+                    <constraint firstItem="jz1-nu-Ehe" firstAttribute="trailing" secondItem="vtS-m3-mBE" secondAttribute="trailing" id="96g-t0-vhN"/>
+                    <constraint firstItem="Iam-h1-CPa" firstAttribute="top" secondItem="6Gr-O6-AIy" secondAttribute="top" id="9pC-Tg-bfb"/>
+                    <constraint firstItem="txg-jw-30X" firstAttribute="top" secondItem="6Gr-O6-AIy" secondAttribute="top" constant="-5" id="AoQ-IL-yO0"/>
+                    <constraint firstItem="jz1-nu-Ehe" firstAttribute="centerY" secondItem="Iam-h1-CPa" secondAttribute="centerY" id="H6S-a9-Xq1"/>
+                    <constraint firstItem="vtS-m3-mBE" firstAttribute="bottom" secondItem="6Gr-O6-AIy" secondAttribute="bottom" id="Kna-OL-oVc"/>
+                    <constraint firstItem="txg-jw-30X" firstAttribute="trailing" secondItem="6Gr-O6-AIy" secondAttribute="trailing" constant="5" id="NBh-iR-ala"/>
+                    <constraint firstItem="vtS-m3-mBE" firstAttribute="leading" secondItem="Iam-h1-CPa" secondAttribute="leading" id="UgC-WX-FCC"/>
+                    <constraint firstAttribute="trailing" secondItem="vtS-m3-mBE" secondAttribute="trailing" constant="15" id="ezl-7C-jpZ"/>
+                    <constraint firstItem="6Gr-O6-AIy" firstAttribute="centerY" secondItem="fux-Yf-Hi3" secondAttribute="centerY" id="rj1-nB-GaW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="badgeLabel" destination="txg-jw-30X" id="Sd3-6b-HKN"/>
+                <outlet property="concernNameLabel" destination="Iam-h1-CPa" id="zc5-uY-gDg"/>
+                <outlet property="descriptionLabel" destination="vtS-m3-mBE" id="CV7-Bt-nhg"/>
+                <outlet property="iconImageView" destination="6Gr-O6-AIy" id="FzG-hx-G5p"/>
+                <outlet property="timeLabel" destination="jz1-nu-Ehe" id="vhf-ST-3nc"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

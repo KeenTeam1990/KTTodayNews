@@ -1,0 +1,11 @@
+site_name: 头条接口文档
+
+pages:
+  - [index.md, 索引]
+  - [home.md, 首页]
+  - [video.md, 视频]
+  - [huoshan.md,  小视频]
+  - [mine.md, 我的]
+  - [about.md, 关于]
+
+theme: readthedocs

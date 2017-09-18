@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="113" id="KGk-i7-Jjw" customClass="PostSecondCell" customModule="TodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ju-de-YOn">
+                        <rect key="frame" x="15" y="10" width="290" height="72.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIY-sn-0af">
+                                <rect key="frame" x="0.0" y="1.5" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="6Mt-Tk-3r1"/>
+                                    <constraint firstAttribute="width" constant="70" id="8s4-C5-sPx"/>
+                                </constraints>
+                                <state key="normal" image="video_play_icon_44x44_"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOd-Me-ODY">
+                                <rect key="frame" x="85" y="15" width="190" height="42.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GIY-sn-0af" firstAttribute="centerY" secondItem="1Ju-de-YOn" secondAttribute="centerY" id="Jkb-Oq-rHq"/>
+                            <constraint firstAttribute="bottom" secondItem="mOd-Me-ODY" secondAttribute="bottom" constant="15" id="cLD-4G-TFL"/>
+                            <constraint firstAttribute="trailing" secondItem="mOd-Me-ODY" secondAttribute="trailing" constant="15" id="cb9-Wj-mms"/>
+                            <constraint firstItem="mOd-Me-ODY" firstAttribute="top" secondItem="1Ju-de-YOn" secondAttribute="top" constant="15" id="nnM-U4-Q2Y"/>
+                            <constraint firstItem="GIY-sn-0af" firstAttribute="leading" secondItem="1Ju-de-YOn" secondAttribute="leading" id="plD-gt-QHQ"/>
+                            <constraint firstItem="mOd-Me-ODY" firstAttribute="leading" secondItem="GIY-sn-0af" secondAttribute="trailing" constant="15" id="rEK-I5-V0A"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1Ju-de-YOn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="3a7-Oa-ebj"/>
+                    <constraint firstAttribute="bottom" secondItem="1Ju-de-YOn" secondAttribute="bottom" constant="15" id="PwE-1s-HHQ"/>
+                    <constraint firstItem="1Ju-de-YOn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="qsp-8H-aTh"/>
+                    <constraint firstAttribute="trailing" secondItem="1Ju-de-YOn" secondAttribute="trailing" constant="15" id="uF2-UR-Nfd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="mOd-Me-ODY" id="Gc4-HV-JLa"/>
+                <outlet property="videoButton" destination="GIY-sn-0af" id="XgH-Q9-pP6"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="19"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="video_play_icon_44x44_" width="44" height="44"/>
+    </resources>
+</document>

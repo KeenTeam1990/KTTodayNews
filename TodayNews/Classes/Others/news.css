@@ -1,0 +1,35 @@
+img{
+    width:95%;
+    text-align:center;
+}
+
+body, html {
+    margin:10;
+    padding:0;
+    border:0;
+    font-size:17px;
+}
+
+body{
+    padding:10 8 5 10;
+    font-size:100%;
+    color:#2b2b2b;
+    background-color: white; 
+    height: auto;
+}
+
+.content_text{ 
+    padding:10 5 5 10;
+    line-height:200%;
+    font-size:100%;
+    color:#2b2b2b;
+}
+
+.title{
+    padding:10 5 5 10;
+    font-size:17px;
+}
+
+p {
+    font-size:45px;
+}

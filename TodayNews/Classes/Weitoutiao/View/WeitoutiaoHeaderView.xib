@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WeitoutiaoHeaderView" customModule="TodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysc-YF-xe8">
+                    <rect key="frame" x="0.0" y="0.0" width="124.5" height="45"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <state key="normal" title="文字" image="toutiaoquan_release_text_24x24_">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="textButtonClicked" destination="iN0-l3-epB" eventType="touchUpInside" id="D6V-6U-Tex"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bVD-yL-YZa">
+                    <rect key="frame" x="124.5" y="12.5" width="1" height="20"/>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Ju2-MB-p7f"/>
+                        <constraint firstAttribute="height" constant="20" id="qPA-O0-Dgy"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOI-eh-M8T">
+                    <rect key="frame" x="125.5" y="0.0" width="124" height="45"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <state key="normal" title="图片" image="toutiaoquan_release_image_24x24_">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="imageButtonClicked" destination="iN0-l3-epB" eventType="touchUpInside" id="MsB-Wa-Duz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZu-wH-Fhu">
+                    <rect key="frame" x="250.5" y="0.0" width="124.5" height="45"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <state key="normal" title="视频" image="toutiaoquan_release_video_24x24_">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="videoButtonClicked" destination="iN0-l3-epB" eventType="touchUpInside" id="XEG-6C-myc"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fy-uD-ulw" userLabel="分割线">
+                    <rect key="frame" x="249.5" y="12" width="1" height="20"/>
+                    <color key="backgroundColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="4oR-c9-JSS"/>
+                        <constraint firstAttribute="height" constant="20" id="pPZ-X5-9g2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c8R-YW-3Yz" userLabel="分割线">
+                    <rect key="frame" x="0.0" y="44" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="gyb-Bt-Kzv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="c8R-YW-3Yz" secondAttribute="trailing" id="3sE-9g-xow"/>
+                <constraint firstAttribute="bottom" secondItem="eZu-wH-Fhu" secondAttribute="bottom" id="4XD-J2-q9Y"/>
+                <constraint firstItem="eZu-wH-Fhu" firstAttribute="centerY" secondItem="4fy-uD-ulw" secondAttribute="centerY" id="90Q-dt-div"/>
+                <constraint firstItem="eZu-wH-Fhu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Afy-Ss-XDQ"/>
+                <constraint firstItem="bVD-yL-YZa" firstAttribute="centerY" secondItem="ysc-YF-xe8" secondAttribute="centerY" id="B7c-d5-aCr"/>
+                <constraint firstItem="eZu-wH-Fhu" firstAttribute="leading" secondItem="4fy-uD-ulw" secondAttribute="trailing" id="E4W-xS-BfE"/>
+                <constraint firstAttribute="bottom" secondItem="mOI-eh-M8T" secondAttribute="bottom" id="HMl-oJ-CDB"/>
+                <constraint firstItem="eZu-wH-Fhu" firstAttribute="width" secondItem="ysc-YF-xe8" secondAttribute="width" id="Iel-E6-Vde"/>
+                <constraint firstItem="ysc-YF-xe8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZMD-XV-T0a"/>
+                <constraint firstAttribute="bottom" secondItem="ysc-YF-xe8" secondAttribute="bottom" id="Zkg-qV-RjF"/>
+                <constraint firstItem="mOI-eh-M8T" firstAttribute="width" secondItem="ysc-YF-xe8" secondAttribute="width" id="a3C-hX-yws"/>
+                <constraint firstItem="ysc-YF-xe8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eHa-ex-0c1"/>
+                <constraint firstItem="4fy-uD-ulw" firstAttribute="leading" secondItem="mOI-eh-M8T" secondAttribute="trailing" id="egM-Ay-QMA"/>
+                <constraint firstAttribute="bottom" secondItem="c8R-YW-3Yz" secondAttribute="bottom" id="gjd-j6-JPL"/>
+                <constraint firstAttribute="trailing" secondItem="eZu-wH-Fhu" secondAttribute="trailing" id="hQn-tp-LOM"/>
+                <constraint firstItem="mOI-eh-M8T" firstAttribute="leading" secondItem="bVD-yL-YZa" secondAttribute="trailing" id="hfx-C7-7pA"/>
+                <constraint firstItem="bVD-yL-YZa" firstAttribute="leading" secondItem="ysc-YF-xe8" secondAttribute="trailing" id="iwS-vy-pCW"/>
+                <constraint firstItem="c8R-YW-3Yz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kxW-AN-AAf"/>
+                <constraint firstItem="mOI-eh-M8T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="p9S-mx-s2E"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageButton" destination="mOI-eh-M8T" id="gV3-ND-ug6"/>
+                <outlet property="textButton" destination="ysc-YF-xe8" id="mAx-zf-hYh"/>
+                <outlet property="videoButton" destination="eZu-wH-Fhu" id="Ort-aV-9GR"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="346.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="toutiaoquan_release_image_24x24_" width="24" height="24"/>
+        <image name="toutiaoquan_release_text_24x24_" width="24" height="24"/>
+        <image name="toutiaoquan_release_video_24x24_" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoLoginHeaderView" customModule="TodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="282"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper_profile_night" translatesAutoresizingMaskIntoConstraints="NO" id="vGS-O5-MtI">
+                    <rect key="frame" x="0.0" y="-20" width="375" height="302"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOD-8W-umN">
+                    <rect key="frame" x="0.0" y="67.5" width="375" height="66"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-xu-8k9">
+                            <rect key="frame" x="0.0" y="0.0" width="94" height="66"/>
+                            <state key="normal" image="cellphoneicon_login_profile_66x66_"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyU-w5-0QX">
+                            <rect key="frame" x="94" y="0.0" width="93.5" height="66"/>
+                            <state key="normal" image="weixinicon_login_profile_66x66_"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5T-K8-Vre">
+                            <rect key="frame" x="187.5" y="0.0" width="94" height="66"/>
+                            <state key="normal" image="qqicon_login_profile_66x66_"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KS-BX-gxo">
+                            <rect key="frame" x="281.5" y="0.0" width="93.5" height="66"/>
+                            <state key="normal" image="sinaicon_login_profile_66x66_"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="k5T-K8-Vre" firstAttribute="width" secondItem="fgZ-xu-8k9" secondAttribute="width" id="G3Z-hT-PYg"/>
+                        <constraint firstItem="5KS-BX-gxo" firstAttribute="width" secondItem="fgZ-xu-8k9" secondAttribute="width" id="USN-3f-fJD"/>
+                        <constraint firstItem="WyU-w5-0QX" firstAttribute="width" secondItem="fgZ-xu-8k9" secondAttribute="width" id="q6k-FK-mIE"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uo8-Cp-YSS" userLabel="中间 按钮">
+                    <rect key="frame" x="0.0" y="222" width="375" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lY-IV-2kl" customClass="VerticalButton" customModule="TodayNews" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="收藏" image="favoriteicon_profile_24x24_">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXG-Cy-E40" customClass="VerticalButton" customModule="TodayNews" customModuleProvider="target">
+                            <rect key="frame" x="125" y="0.0" width="125" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="历史" image="history_profile_24x24_">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnF-Gs-dlI" customClass="VerticalButton" customModule="TodayNews" customModuleProvider="target">
+                            <rect key="frame" x="250" y="0.0" width="125" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="夜间" image="nighticon_profile_24x24_">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="dayOrNightButtonClciked:" destination="iN0-l3-epB" eventType="touchUpInside" id="9LY-oA-WBi"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="wXG-Cy-E40" firstAttribute="width" secondItem="2lY-IV-2kl" secondAttribute="width" id="9TI-gp-vX6"/>
+                        <constraint firstAttribute="bottom" secondItem="HnF-Gs-dlI" secondAttribute="bottom" id="DI5-oB-gWP"/>
+                        <constraint firstItem="wXG-Cy-E40" firstAttribute="leading" secondItem="2lY-IV-2kl" secondAttribute="trailing" id="I9p-oL-YVb"/>
+                        <constraint firstItem="2lY-IV-2kl" firstAttribute="leading" secondItem="Uo8-Cp-YSS" secondAttribute="leading" id="JkY-eA-qmD"/>
+                        <constraint firstAttribute="height" constant="60" id="SrM-Ph-gVr"/>
+                        <constraint firstAttribute="bottom" secondItem="2lY-IV-2kl" secondAttribute="bottom" id="Xo4-wo-QHb"/>
+                        <constraint firstItem="2lY-IV-2kl" firstAttribute="top" secondItem="Uo8-Cp-YSS" secondAttribute="top" id="Xy4-UO-GJY"/>
+                        <constraint firstItem="HnF-Gs-dlI" firstAttribute="width" secondItem="2lY-IV-2kl" secondAttribute="width" id="Z03-Jj-Xcv"/>
+                        <constraint firstAttribute="bottom" secondItem="wXG-Cy-E40" secondAttribute="bottom" id="ZLJ-QO-awu"/>
+                        <constraint firstItem="wXG-Cy-E40" firstAttribute="top" secondItem="Uo8-Cp-YSS" secondAttribute="top" id="bj3-0T-6oS"/>
+                        <constraint firstItem="HnF-Gs-dlI" firstAttribute="top" secondItem="Uo8-Cp-YSS" secondAttribute="top" id="pgD-FF-yHd"/>
+                        <constraint firstItem="HnF-Gs-dlI" firstAttribute="leading" secondItem="wXG-Cy-E40" secondAttribute="trailing" id="sn9-Mr-0nn"/>
+                        <constraint firstAttribute="trailing" secondItem="HnF-Gs-dlI" secondAttribute="trailing" id="tgr-jl-X6I"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ6-Us-8lD" customClass="AnimatableButton" customModule="IBAnimatable">
+                    <rect key="frame" x="124.5" y="180" width="125" height="28"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="125" id="BgQ-eq-lYb"/>
+                        <constraint firstAttribute="height" constant="28" id="tov-4D-SqG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title=" 更多登录方式 &gt;">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="14"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vGS-O5-MtI" secondAttribute="bottom" id="5tA-I8-725"/>
+                <constraint firstItem="JZ6-Us-8lD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gqq-IR-tHH"/>
+                <constraint firstAttribute="trailing" secondItem="vGS-O5-MtI" secondAttribute="trailing" id="H9G-wg-hDe"/>
+                <constraint firstItem="Uo8-Cp-YSS" firstAttribute="bottom" secondItem="vGS-O5-MtI" secondAttribute="bottom" id="I69-8f-gD3"/>
+                <constraint firstItem="JZ6-Us-8lD" firstAttribute="top" secondItem="jOD-8W-umN" secondAttribute="bottom" multiplier="1.2" constant="20" id="ZBm-8T-eaO"/>
+                <constraint firstItem="vGS-O5-MtI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-20" id="cXc-Bc-vdG"/>
+                <constraint firstItem="vGS-O5-MtI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lTl-ui-EgI"/>
+                <constraint firstItem="Uo8-Cp-YSS" firstAttribute="top" secondItem="JZ6-Us-8lD" secondAttribute="bottom" constant="14" id="mX6-Hn-LPJ"/>
+                <constraint firstItem="jOD-8W-umN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mhn-6Q-Dq8"/>
+                <constraint firstAttribute="trailing" secondItem="jOD-8W-umN" secondAttribute="trailing" id="tih-hb-gzM"/>
+                <constraint firstItem="Uo8-Cp-YSS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vEe-Ok-9IY"/>
+                <constraint firstAttribute="trailing" secondItem="Uo8-Cp-YSS" secondAttribute="trailing" id="y2s-kU-c27"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgImageView" destination="vGS-O5-MtI" id="jnF-gD-uvW"/>
+                <outlet property="dayOrNightButton" destination="HnF-Gs-dlI" id="peJ-xj-QN2"/>
+                <outlet property="favoriteButton" destination="2lY-IV-2kl" id="yrx-zo-ds6"/>
+                <outlet property="historyButton" destination="wXG-Cy-E40" id="6lz-ZY-r5Y"/>
+                <outlet property="mobileButton" destination="fgZ-xu-8k9" id="PaA-Sw-B99"/>
+                <outlet property="moreLoginButton" destination="JZ6-Us-8lD" id="sxe-Cw-Obr"/>
+                <outlet property="qqButton" destination="k5T-K8-Vre" id="itD-rk-Utl"/>
+                <outlet property="sinaButton" destination="5KS-BX-gxo" id="cys-rh-epo"/>
+                <outlet property="stackView" destination="jOD-8W-umN" id="zzt-wn-I9E"/>
+                <outlet property="wechatButton" destination="WyU-w5-0QX" id="R39-n8-BqD"/>
+            </connections>
+            <point key="canvasLocation" x="-9.5" y="-92"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cellphoneicon_login_profile_66x66_" width="66" height="66"/>
+        <image name="favoriteicon_profile_24x24_" width="24" height="24"/>
+        <image name="history_profile_24x24_" width="24" height="24"/>
+        <image name="nighticon_profile_24x24_" width="24" height="24"/>
+        <image name="qqicon_login_profile_66x66_" width="66" height="66"/>
+        <image name="sinaicon_login_profile_66x66_" width="66" height="66"/>
+        <image name="wallpaper_profile_night" width="320" height="180"/>
+        <image name="weixinicon_login_profile_66x66_" width="66" height="66"/>
+    </resources>
+</document>

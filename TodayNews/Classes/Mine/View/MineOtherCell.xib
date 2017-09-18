@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MineOtherCell" customModule="TodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setting_rightarrow_8x14_" translatesAutoresizingMaskIntoConstraints="NO" id="nL2-2n-iHC">
+                        <rect key="frame" x="297" y="13" width="8" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="BG6-dc-2V7"/>
+                            <constraint firstAttribute="width" constant="8" id="u8V-Jm-SB8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4K-JB-Ntg">
+                        <rect key="frame" x="15" y="0.0" width="31" height="39.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQC-1B-1Y0">
+                        <rect key="frame" x="251.5" y="0.0" width="35.5" height="39.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iil-Sz-dn5">
+                        <rect key="frame" x="15" y="39" width="305" height="1"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="XDx-0Z-PUm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="iil-Sz-dn5" secondAttribute="bottom" id="41i-5G-h9S"/>
+                    <constraint firstAttribute="trailing" secondItem="iil-Sz-dn5" secondAttribute="trailing" id="6RV-Ne-Yhb"/>
+                    <constraint firstAttribute="bottom" secondItem="i4K-JB-Ntg" secondAttribute="bottom" id="BPR-G5-pKn"/>
+                    <constraint firstItem="nL2-2n-iHC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="DLX-VH-UKo"/>
+                    <constraint firstItem="nL2-2n-iHC" firstAttribute="leading" secondItem="cQC-1B-1Y0" secondAttribute="trailing" constant="10" id="Db1-SW-D0H"/>
+                    <constraint firstItem="iil-Sz-dn5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="KEh-iS-voM"/>
+                    <constraint firstAttribute="trailing" secondItem="nL2-2n-iHC" secondAttribute="trailing" constant="15" id="aL4-T1-4nY"/>
+                    <constraint firstItem="i4K-JB-Ntg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cdC-yh-ggk"/>
+                    <constraint firstItem="cQC-1B-1Y0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fk6-Zv-8kZ"/>
+                    <constraint firstItem="i4K-JB-Ntg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="gjK-Mc-g67"/>
+                    <constraint firstAttribute="bottom" secondItem="cQC-1B-1Y0" secondAttribute="bottom" id="zbV-vU-Lg6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftlabel" destination="i4K-JB-Ntg" id="5QQ-K5-zb4"/>
+                <outlet property="rightLabel" destination="cQC-1B-1Y0" id="gAY-cq-RlP"/>
+                <outlet property="rightTipImageView" destination="nL2-2n-iHC" id="JD5-jx-NkP"/>
+                <outlet property="separatorView" destination="iil-Sz-dn5" id="smH-Hd-FxZ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="setting_rightarrow_8x14_" width="8" height="14"/>
+    </resources>
+</document>
