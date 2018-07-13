@@ -89,4 +89,7 @@
 
 #### 对于代码中出现的问题，可以及时联系我，我会继续修改。
 
+# License
+The MIT License (MIT)                        Copyright (c) 2016 KEENTEAM
+
 
