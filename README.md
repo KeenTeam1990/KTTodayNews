@@ -77,7 +77,7 @@
 #### 当然也可以使用 sublime 或 vscode 打开 json 文件。
 
 #### 数据请求的具体方式，请看 [NetworkTool.swift](https://github.com/KeenTeam1990/KTTodayNews/blob/master/TodayNews/Classes/Main/Tools/NetworkTool.swift)。
-####[GitHub](https://github.com/KeenTeam1990/KTTodayNews.git)
+#[GitHub](https://github.com/KeenTeam1990/KTTodayNews.git)
 
 # 2016.08.18
 
