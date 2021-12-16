@@ -6,8 +6,6 @@
 ## 新增接口文档
 [接口文档](https://github.com/KeenTeam1990/KTTodayNews/tree/master/todayNews-docs)
 
-// TODO： 文档暂时不全，后面会继续补全。
-
 接口文档使用的是 [MKDocs](http://www.mkdocs.org/)，具体安装方法以及使用可以参考官网的介绍。
 
 # 2017.09.05
@@ -90,6 +88,4 @@
 #### 对于代码中出现的问题，可以及时联系我，我会继续修改。
 
 # License
-The MIT License (MIT)                        Copyright (c) 2016 KEENTEAM
-
-
+The MIT License (MIT)                        Copyright (c) 2014 KEENTEAM
