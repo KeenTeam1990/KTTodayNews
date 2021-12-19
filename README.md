@@ -5,7 +5,6 @@
 # 2017.09.09
 ## 新增接口文档
 [接口文档](https://github.com/KeenTeam1990/KTTodayNews/tree/master/todayNews-docs)
-
 接口文档使用的是 [MKDocs](http://www.mkdocs.org/)，具体安装方法以及使用可以参考官网的介绍。
 
 # 2017.09.05
@@ -36,9 +35,7 @@
 -  iOS 9.3 +
 -  使用 cocoaPods 管理第三方库， 如果电脑没有安装 cocoapods，请先安装 cocoapods，cocoapods 版本为 1.2.0，安装方式请参考  [iOS-CocoaPod升级cocoapods1.2.0 (适配swift3)](http://blog.csdn.net/qxuewei/article/details/53113920)。
 
-
 ![](http://obna9emby.bkt.clouddn.com/news/news.gif)
-
 
 ## 实现的功能
 
@@ -88,4 +85,4 @@
 #### 对于代码中出现的问题，可以及时联系我，我会继续修改。
 
 # License
-The MIT License (MIT)                        Copyright (c) 2014 KEENTEAM
+The MIT License (MIT)      Copyright (c) 2014 KEENTEAM
