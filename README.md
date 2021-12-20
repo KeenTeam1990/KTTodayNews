@@ -65,7 +65,9 @@
 
 ## 数据请求
 
-#### 今日头条的接口文件请看： [今日头条接口.postman_collection.json](https://github.com/hrscy/TodayNews/blob/master/news.json)，需要提前安装 postman，然后把该文件导入到 postman 进行查看，可以打开谷歌浏览器，找到扩展程序，添加新的扩展，搜索 postman。
+#### 今日头条的接口文件请看：
+
+[今日头条接口.postman_collection.json](https://github.com/hrscy/TodayNews/blob/master/news.json)，需要提前安装 postman，然后把该文件导入到 postman 进行查看，可以打开谷歌浏览器，找到扩展程序，添加新的扩展，搜索 postman。
 
 #### 下载完成后，直接拖入到谷歌浏览器的扩展程序界面即可。
 
@@ -85,4 +87,5 @@
 #### 对于代码中出现的问题，可以及时联系我，我会继续修改。
 
 # License
+
 The MIT License (MIT)      Copyright (c) 2014 KEENTEAM
