@@ -2,29 +2,29 @@
 
 [![Build Status](https://travis-ci.org/hrscy/TodayNews.svg?branch=master)](https://travis-ci.org/hrscy/TodayNews) ![swift3.1](https://img.shields.io/badge/language-swift%203.1-orange.svg)
 
-# 2017.09.09
+# 2021.09.09
 ## 新增接口文档
 [接口文档](https://github.com/KeenTeam1990/KTTodayNews/tree/master/todayNews-docs)
 接口文档使用的是 [MKDocs](http://www.mkdocs.org/)，具体安装方法以及使用可以参考官网的介绍。
 
-# 2017.09.05
+# 2020.09.05
 ## 目前正在录制视频...
 
-# 2017.08.22
+# 2020.08.22
 
 ## 编译的时候，可能会报错，提示某个文件找不到，可以去相应的文件夹里去找，然后拖到工程里，再编译运行就可以了。
 
-# 2017.08.15
+# 2020.08.15
 
 # 后面有时间的话会考虑出一个视频教程。
 
-# 2017.06.15
+# 2020.06.15
 
 ## 删除 Swift 2.2 相关代码，继续适配 Swift 3.1。
 
 ## 带有YM 前缀的类都已不再使用，如果运行过程中出现报错，请删除相关类文件或代码。
 
-# 2017.06.12 
+# 2020.06.12 
 
 # 目前在适配 Swift 3.1，只完成了部分功能，后面会继续更新。
 ## 环境设置
@@ -76,7 +76,7 @@
 #### 数据请求的具体方式，请看 [NetworkTool.swift](https://github.com/KeenTeam1990/KTTodayNews/blob/master/TodayNews/Classes/Main/Tools/NetworkTool.swift)。
 #[GitHub](https://github.com/KeenTeam1990/KTTodayNews.git)
 
-# 2016.08.18
+# 2020.08.18
 
 ## 说明
 
