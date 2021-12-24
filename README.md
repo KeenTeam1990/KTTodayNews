@@ -7,31 +7,31 @@
 [接口文档](https://github.com/KeenTeam1990/KTTodayNews/tree/master/todayNews-docs)
 接口文档使用的是 [MKDocs](http://www.mkdocs.org/)，具体安装方法以及使用可以参考官网的介绍。
 
-# 2020.09.05
+# 2021.09.05
 ## 目前正在录制视频...
 
-# 2020.08.22
+# 2021.08.22
 
 ## 编译的时候，可能会报错，提示某个文件找不到，可以去相应的文件夹里去找，然后拖到工程里，再编译运行就可以了。
 
-# 2020.08.15
+# 2021.08.15
 
 # 后面有时间的话会考虑出一个视频教程。
 
-# 2020.06.15
+# 2021.06.15
 
-## 删除 Swift 2.2 相关代码，继续适配 Swift 3.1。
+## 删除 Swift 4.2 相关代码，继续适配 Swift 5.1。
 
 ## 带有YM 前缀的类都已不再使用，如果运行过程中出现报错，请删除相关类文件或代码。
 
-# 2020.06.12 
+# 2021.06.12 
 
 # 目前在适配 Swift 3.1，只完成了部分功能，后面会继续更新。
 ## 环境设置
 
 -  项目环境
--  Xcode 8.3.3
--  Swift 3.1
+-  Xcode 13
+-  Swift 5.1
 -  iOS 9.3 +
 -  使用 cocoaPods 管理第三方库， 如果电脑没有安装 cocoapods，请先安装 cocoapods，cocoapods 版本为 1.2.0，安装方式请参考  [iOS-CocoaPod升级cocoapods1.2.0 (适配swift3)](http://blog.csdn.net/qxuewei/article/details/53113920)。
 
@@ -76,7 +76,7 @@
 #### 数据请求的具体方式，请看 [NetworkTool.swift](https://github.com/KeenTeam1990/KTTodayNews/blob/master/TodayNews/Classes/Main/Tools/NetworkTool.swift)。
 #[GitHub](https://github.com/KeenTeam1990/KTTodayNews.git)
 
-# 2020.08.18
+# 2021.08.18
 
 ## 说明
 
