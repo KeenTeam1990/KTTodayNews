@@ -76,7 +76,7 @@
 #### 数据请求的具体方式，请看 [NetworkTool.swift](https://github.com/KeenTeam1990/KTTodayNews/blob/master/TodayNews/Classes/Main/Tools/NetworkTool.swift)。
 #[GitHub](https://github.com/KeenTeam1990/KTTodayNews.git)
 
-# 2021.08.18
+# 2022.02.18
 
 ## 说明
 
