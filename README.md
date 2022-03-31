@@ -32,7 +32,7 @@
 -  项目环境
 -  Xcode 13
 -  Swift 5.1
--  iOS 9.3 +
+-  iOS 10.0 +
 -  使用 cocoaPods 管理第三方库， 如果电脑没有安装 cocoapods，请先安装 cocoapods，cocoapods 版本为 1.2.0，安装方式请参考  [iOS-CocoaPod升级cocoapods1.2.0 (适配swift3)](http://blog.csdn.net/qxuewei/article/details/53113920)。
 
 ![](http://obna9emby.bkt.clouddn.com/news/news.gif)
@@ -82,7 +82,7 @@
 
 首先声明，今日头条是我经常用的 app 之一，模仿今日头条也是因为感兴趣，代码仅用于学习交流。对于项目中的数据接口都是通过 Charles 抓包获得，基本每个界面都是有数据请求，不会抓包的朋友可以看我 [这一篇文章](http://www.jianshu.com/p/235bc6c3ca77)。
 
-项目中有的地方代码写的不是很简洁，毕竟自己能力有限，对 Swift 使用不是很熟练，还请各位朋友不喜勿喷。下面有项目的完整源码，喜欢的朋友可以下载下来，如果您感觉我写的代码对您有所帮助，还请在 github 给个 star，非常感谢您的支持！~
+项目中有的地方代码写的不是很简洁，毕竟自己能力有限，对 Swift 使用不是很熟练，还请各位朋友不喜勿喷。下面有项目的完整源码，喜欢的朋友可以下载下来，如果您感觉我写的代码对您有所帮助，还请在 github 给个 star✨，非常感谢您的支持！~
 
 #### 对于代码中出现的问题，可以及时联系我，我会继续修改。
 
