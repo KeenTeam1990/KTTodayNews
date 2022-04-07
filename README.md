@@ -1,6 +1,6 @@
 # Swift开源项目-模仿今日头条
 
-[![Build Status](https://travis-ci.org/hrscy/TodayNews.svg?branch=master)](https://travis-ci.org/hrscy/TodayNews) ![swift5.1](https://img.shields.io/badge/language-swift%203.1-orange.svg)
+[![Build Status](https://travis-ci.org/hrscy/TodayNews.svg?branch=master)](https://travis-ci.org/hrscy/TodayNews) ![swift5.1](https://img.shields.io/badge/language-swift%205.1-orange.svg)
 
 # 2021.09.09
 ## 新增接口文档
