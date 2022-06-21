@@ -88,4 +88,4 @@
 
 # License
 
-The MIT License (MIT)      Copyright (c) 2014 KEENTEAM
+The MIT License (MIT)   Copyright (c) 2014 KEENTEAM
